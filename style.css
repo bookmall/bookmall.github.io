@@ -181,6 +181,7 @@ nav {
 
 .section-title {
     font-size: 1.75rem;
+    padding-left: 10px;
     margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
@@ -1096,6 +1097,28 @@ footer {
     object-fit: cover;
     /* Ensures the image covers the container */
     display: block;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 5px 15px;
+    font-size: 30px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3; /* Darker background color on hover */
 }
 
 
