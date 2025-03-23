@@ -144,11 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
 function filterBooksByCategory(category, books) {
     const filteredBooks = category === 'All Books' 
         ? books 
-        : books.filter(book => book.category === category);
+        : books.filter(book => book.categories.includes(category));
     
     const filteredBestsellers = category === 'All Books' 
         ? books.slice(0, 20) 
-        : books.filter(book => book.category === category).slice(0, 20);
+        : books.filter(book => book.categories.includes(category)).slice(0, 20);
     
     displayBooks(filteredBooks, 'featured-books');
     displayBooks(filteredBestsellers, 'bestseller-books');
