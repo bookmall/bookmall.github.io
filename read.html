@@ -27,6 +27,54 @@
                     🌙 <!-- Moon icon for dark theme -->
                 </div>
                 <div class="menu-toggle" id="menu-toggle">☰</div>
+                <script>
+                    // Function to toggle the mobile menu
+function setupMenuToggle() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    } else {
+        console.error('Menu toggle or nav links element not found!');
+    }
+}
+
+// Function to toggle between light and dark themes
+function setupThemeToggle() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Check user's preferred theme from localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        body.classList.add(savedTheme);
+        updateThemeIcon(savedTheme);
+    }
+
+    // Toggle theme on button click
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        const isDarkTheme = body.classList.contains('dark-theme');
+        localStorage.setItem('theme', isDarkTheme ? 'dark-theme' : 'light-theme');
+        updateThemeIcon(isDarkTheme ? 'dark-theme' : 'light-theme');
+    });
+}
+
+// Function to update the theme icon
+function updateThemeIcon(theme) {
+    const themeToggle = document.getElementById('theme-toggle');
+    themeToggle.textContent = theme === 'dark-theme' ? '☀️' : '🌙';
+}
+
+// Call the functions on page load
+document.addEventListener('DOMContentLoaded', () => {
+    setupMenuToggle(); // Initialize the menu toggle
+    setupThemeToggle(); // Initialize the theme toggle
+});
+                </script>
             </nav>
         </div>
     </header>
@@ -110,24 +158,6 @@
     </footer>
 
     <script>
-        function setupMenuToggle() {
-            const menuToggle = document.getElementById('menu-toggle');
-            const navLinks = document.getElementById('nav-links');
-        
-            if (menuToggle && navLinks) {
-                menuToggle.addEventListener('click', () => {
-                    navLinks.classList.toggle('active');
-                });
-            } else {
-                console.error('Menu toggle or nav links element not found!');
-            }
-        }
-        
-        // Call the function on page load
-        document.addEventListener('DOMContentLoaded', () => {
-            setupMenuToggle();
-        });
-
         // Function to get the book ID from the URL query parameter
         function getBookIdFromUrl() {
             const urlParams = new URLSearchParams(window.location.search);

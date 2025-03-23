@@ -128,19 +128,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoriesContainer = document.createElement('div');
     categoriesContainer.className = 'categories';
 
-    // Move all child nodes of categories to the container
     while (categories.firstChild) {
         categoriesContainer.appendChild(categories.firstChild);
     }
 
-    // Append the container back to the categories div
     categories.appendChild(categoriesContainer);
 
-    // Duplicate the categories for seamless scrolling
     categoriesContainer.innerHTML += categoriesContainer.innerHTML;
 });
 
-// Filter books by category
+                                    // Filter books by category
 function filterBooksByCategory(category, books) {
     const filteredBooks = category === 'All Books'
         ? books
@@ -154,7 +151,7 @@ function filterBooksByCategory(category, books) {
     displayBooks(filteredBestsellers, 'bestseller-books');
 }
 
-// Setup search functionality
+                                    // Setup search functionality
 function setupSearch() {
     const searchInput = document.getElementById('search-input');
     const searchButton = document.getElementById('search-button');
@@ -168,13 +165,13 @@ function setupSearch() {
             const filteredBooks = books.filter(book =>
                 book.title.toLowerCase().includes(query) ||
                 book.author.toLowerCase().includes(query) ||
-                book.id.toString().includes(query) // Search by ID
+                book.id.toString().includes(query)
             );
 
             const filteredBestsellers = books.filter(book =>
                 book.title.toLowerCase().includes(query) ||
                 book.author.toLowerCase().includes(query) ||
-                book.id.toString().includes(query) // Search by ID
+                book.id.toString().includes(query)
             ).slice(0, 20);
 
             displayBooks(filteredBooks, 'featured-books');
@@ -393,10 +390,18 @@ async function displayFeaturedBooksInSlider() {
         const slide = document.createElement('div');
         slide.className = 'slide';
         slide.innerHTML = `
-        <img src="${book.cover}" alt="${book.title}" data-book-id="${book.id}">
-    `;
+            <img src="${book.cover}" alt="${book.title}" data-book-id="${book.id}">
+        `;
         slider.appendChild(slide);
     });
+
+    // Clone the first slide and append it to the end
+    const firstSlideClone = slider.firstElementChild.cloneNode(true);
+    slider.appendChild(firstSlideClone);
+
+    // Clone the last slide and prepend it to the beginning
+    const lastSlideClone = slider.lastElementChild.cloneNode(true);
+    slider.insertBefore(lastSlideClone, slider.firstElementChild);
 
     // Add click event listeners to slides
     const slides = document.querySelectorAll('.slide img');
@@ -411,18 +416,34 @@ async function displayFeaturedBooksInSlider() {
     autoScrollSlider();
 }
 
-// Auto-scroll the slider
+// Auto-scroll the slider with seamless infinite loop
 function autoScrollSlider() {
     const slider = document.querySelector('.slider');
     const slides = document.querySelectorAll('.slide');
     const totalSlides = slides.length;
-    let currentIndex = 0;
+    const slideWidth = slides[0].offsetWidth;
+    let currentIndex = 1; // Start at 1 because the first slide is a clone
+
+    // Set initial position to the first real slide
+    slider.style.transform = `translateX(${-slideWidth}px)`;
 
     setInterval(() => {
         currentIndex = (currentIndex + 1) % totalSlides;
-        const offset = -currentIndex * slides[0].offsetWidth;
+        const offset = -currentIndex * slideWidth;
+
+        // Smooth transition
+        slider.style.transition = 'transform 0.5s ease-in-out';
         slider.style.transform = `translateX(${offset}px)`;
-    }, 3000); // Change slide every 3 seconds
+
+        // Reset to the first real slide without animation
+        if (currentIndex === totalSlides - 1) {
+            setTimeout(() => {
+                slider.style.transition = 'none';
+                slider.style.transform = `translateX(${-slideWidth}px)`;
+                currentIndex = 1; // Reset to the first real slide
+            }, 500); // Wait for the transition to complete
+        }
+    }, 2000); // Change slide every 2 seconds
 }
 
 // Redirect to the download page
