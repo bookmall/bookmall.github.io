@@ -6,7 +6,8 @@
         "cover": "https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/485391660_122104569662800867_3705274115480535768_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=JxccCjfSPXYQ7kNvgF1HbEZ&_nc_zt=23&_nc_ht=scontent.flhe2-2.fna&_nc_gid=nMEjhypBfZ9k8Ewtcl1PFQ&oh=00_AYGow47Kmq4U6ejJgGoe4watpWx_oAeJ9oVi8_Hx9muZ-w&oe=67DEF3C0",
         "downloadLink": "https://drive.google.com/file/d/1zUs2kaPJWdoU_WTLg-oH-Uc7z-jK08Gs/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1zUs2kaPJWdoU_WTLg-oH-Uc7z-jK08Gs/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/484402551_122104569536800867_4149649006360870484_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=7bvlEFwBLlEQ7kNvgH4U3Zq&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=Db0pcnofFpBdcZRXXX3JXg&oh=00_AYFurLtArkTY0fwk5vcF2fI1kK_9zfxj-o4iuNjt_wSPtg&oe=67DF0FA5",
         "downloadLink": "https://drive.google.com/file/d/1K58uWKwkWLZoyXJ7636yb7vJxVHpNjhv/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1K58uWKwkWLZoyXJ7636yb7vJxVHpNjhv/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/485165890_122104569740800867_9151250217126515980_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3wPdxuwIFdgQ7kNvgGgKm_j&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=1sjyNJrhI1B8yCJqfJ9tmA&oh=00_AYFpq7zP9zfv7yIcGL1fY4S0PVKN5v8qmLbrj5yME49WOA&oe=67DF10EF",
         "downloadLink": "https://drive.google.com/file/d/12lNJ0MEKh6PImTNSjyvoh38AiFMbrtBF/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/12lNJ0MEKh6PImTNSjyvoh38AiFMbrtBF/preview",
-        "categories": ["English", "Education", "Exams"]
+        "categories": ["English", "Education", "Exams"],
+        "featured": true
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "cover": "https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/484544084_122104569878800867_5017746083262848831_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QypbN3q5CJcQ7kNvgHbL2T4&_nc_zt=23&_nc_ht=scontent.flhe2-2.fna&_nc_gid=x4hN_NNu8vcntUaJzQVYYg&oh=00_AYF6dwCxojC7qy34rkkJiZ2zjBA4Mx_RKZOZu6XKPUROcg&oe=67DEE072",
         "downloadLink": "https://drive.google.com/file/d/1C3RJWfq-UroRMgOki99y3WAqDPNpdKtx/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1C3RJWfq-UroRMgOki99y3WAqDPNpdKtx/preview",
-        "categories": ["Education", "Kids"]
+        "categories": ["Education", "Kids"],
+        "featured": true
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/484037907_122118202754752079_6704096999978529626_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGNIZJIGJgs7UB5hu3K8IN7yOfxisPsB0DI5_GKw-wHQIGy3C3T1tqkAV2yNO_hJhMY1prdLvwj4hEER01oRh1d&_nc_ohc=STdgmImd0hUQ7kNvgHr1niT&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=wlnWsd2UQdHtnrbvlby8tg&oh=00_AYGDxuh6DzwFVWtYGwtlM_oRqsmqvuJKvwWGOcTVIHKejw&oe=67DEFC34",
         "downloadLink": "https://drive.google.com/file/d/11EizDVLi0lLyafarAcdvvGaFCsJ7Dc-e/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/11EizDVLi0lLyafarAcdvvGaFCsJ7Dc-e/preview",
-        "categories": ["English", "Education", "Course"]
+        "categories": ["English", "Education", "Course"],
+        "featured": true
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/480969874_122118202916752079_1145673204707035478_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGXGTno-NJjdOIGWE9xsBxBrRjdNxHBYM6tGN03EcFgzmOVP4b53YaD_JDBXs2xwNbM3KnuFFd6VGvyNwDHRbns&_nc_ohc=-0OMim5c1IMQ7kNvgHQyieS&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=uLi0c9-0Vz7Z05uoQTm_3A&oh=00_AYH7oPyDG4Bk2D55VeWCcQiUJCTRgPfLsyrVspjtH6Be5w&oe=67DEEBA9",
         "downloadLink": "https://drive.google.com/file/d/1AGuCjnnDbYyKn_CB9TaE0XQqA_GLUQUI/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1AGuCjnnDbYyKn_CB9TaE0XQqA_GLUQUI/preview",
-        "categories": ["English", "Education", "Teachers"]
+        "categories": ["English", "Education", "Teachers"],
+        "featured": true
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "cover": "https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/481119748_122118202688752079_3427044051928564001_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF7V9B8G10LHuWIKKcfVzPYZsFO1zlhdopmwU7XOWF2in47cujqy2wtpw6MmSyJawf-pTHrOdFqzmOLaQce7i25&_nc_ohc=SNQEjiDAICkQ7kNvgF_luXU&_nc_zt=23&_nc_ht=scontent.flhe2-2.fna&_nc_gid=HPNwDsdloW1dLK_FK_u-9Q&oh=00_AYGCq2qQeTAfAQhO293C7QT6fUpQPMf7fp5wvr2y2BmaIQ&oe=67DF006D",
         "downloadLink": "https://drive.google.com/file/d/1BFTZm_6A57reYnxuNl4uchA4L5SrDyXa/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1BFTZm_6A57reYnxuNl4uchA4L5SrDyXa/preview",
-        "categories": ["English", "Education", "Teachers"]
+        "categories": ["English", "Education", "Teachers"],
+        "featured": true
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/485310718_122104569284800867_2743379277598858856_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=mfl-8ahsd6kQ7kNvgHZ0-Tj&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=3aVktvnF8p0bbmwCeTb73Q&oh=00_AYECy5TpxCM__YyFaL2B73iYVYDNjefayin1h_9WleHoHg&oe=67DF1568",
         "downloadLink": "https://drive.google.com/file/d/1IemLjbIQRDD0YRI8F2ew5Y-3Gp02SNxc/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1IemLjbIQRDD0YRI8F2ew5Y-3Gp02SNxc/preview",
-        "categories": ["English", "Education", "Teachers", "Kids"]
+        "categories": ["English", "Education", "Teachers", "Kids"],
+        "featured": true
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "cover": "https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/485357745_122104569710800867_2322795864060922407_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rrlTX9Nnw20Q7kNvgHHIhoe&_nc_zt=23&_nc_ht=scontent.flhe2-2.fna&_nc_gid=ZnvyaieSKZecJNgK5WgYtw&oh=00_AYFCMdquyNPwrSNzXSzyYCXwLiA4QC9pnShdsXpkd3DVsw&oe=67DF0C60",
         "downloadLink": "https://drive.google.com/file/d/1P_SgvDWvRhddSXw4sqYpclUtChXAYyVN/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1P_SgvDWvRhddSXw4sqYpclUtChXAYyVN/preview",
-        "categories": ["French", "Course"]
+        "categories": ["French", "Course"],
+        "featured": true
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/480680267_122118202628752079_6825192467493844368_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG7G2lMCgZtzSYcfJt7cSQDzgyA0NlwxkbODIDQ2XDGRpRH2w2yNNSGHAq5hmC9VT8fNRYEeNQjuqChy8tFAoTQ&_nc_ohc=2EXhyoVQaPEQ7kNvgEXnYJg&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=kS4STGXk1BEnP6iHjdnjnA&oh=00_AYGVgWHP93mgb0134GXSrSJGhpmjTP9h4Ip3vNCrDtjU7Q&oe=67DF16DF",
         "downloadLink": "https://drive.google.com/file/d/1jw0ITek7MUk6rbnUW78AHPRFfkOicgDX/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1jw0ITek7MUk6rbnUW78AHPRFfkOicgDX/preview",
-        "categories": ["French", "Course"]
+        "categories": ["French", "Course"],
+        "featured": true
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/480962502_122118202922752079_1376659167622889796_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHCUrC1C49GykVD8L2zKbPWuwlJmcTcUqe7CUmZxNxSp6E9-fJj7gY7hEivF1_l0BsWE-mtbDffn9s6JzhLfFqr&_nc_ohc=q8UVIcKRI74Q7kNvgEZg1mv&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=FNT2TlLuOBAAQZcc09CCOA&oh=00_AYFJvkWwRX8Y979Sr7tImybxK6SF8ZTATA8NXIQTrigGmA&oe=67DF1893",
         "downloadLink": "https://drive.google.com/file/d/1YtDZ9VQf0nfxHtyzL9Dob33bJZVrnqrm/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1YtDZ9VQf0nfxHtyzL9Dob33bJZVrnqrm/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/480660333_122118202664752079_8929214609855910592_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFdQuxV_Xlvc0oD5aWnUPQg8vlautMEUO7y-Vq60wRQ7tcBlb7enQEXmUOcFLdmNu1CMWli5h1g5o--5HIOCAxF&_nc_ohc=f0W48gMI7TMQ7kNvgE47AYY&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=h-rFgTx6w13oYQrQDi2TNQ&oh=00_AYHKxLdirL_SuEixkG7z9mVeLaK1q62tGVDdxuZBNQo2_Q&oe=67DEF768",
         "downloadLink": "https://drive.google.com/file/d/15vlzMuFGaHNI0PynHrYORZ92hSZtL4AW/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/15vlzMuFGaHNI0PynHrYORZ92hSZtL4AW/preview",
-        "categories": ["English","Course", "German"]
+        "categories": ["English","Course", "German"],
+        "featured": true
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/484324052_122101721246800867_5277611009791561075_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OJRbG7BGfqMQ7kNvgGEZ4na&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=0rXM1j1O7znIP8fI3LIwVQ&oh=00_AYG1wyrZ0tfz5Zy5cBFAtEQMsHfKZePZv23hYWpVTkQdcA&oe=67DF0FC3",
         "downloadLink": "https://drive.google.com/file/d/1Sty-pzCGJewXXCWD4KssFrYZ0Wnn_fN-/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1Sty-pzCGJewXXCWD4KssFrYZ0Wnn_fN-/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/485365489_122104569338800867_4783540033025141455_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gv62_-0betsQ7kNvgEfcyD8&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=6zWzaB2S5RZKAkBxPKWJKA&oh=00_AYETWyiy1vaXRPPlmPUwWydsn7CaX6AFbX7RxEGz8FRVCw&oe=67DF04E4",
         "downloadLink": "https://drive.google.com/file/d/1b_muTtLQYVaKIyioKuWDvOJSWeZ3TfVS/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1b_muTtLQYVaKIyioKuWDvOJSWeZ3TfVS/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/484513647_122104569470800867_8232360420876062729_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BljWzY5FtcIQ7kNvgHKW_m1&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=sF6MKK6jZ7xU5V1R5tRtkg&oh=00_AYGsqtFsVpJPS6EVHIVX6YmsDVmB1I5pr6W09vHKw8nGIg&oe=67DEEF06",
         "downloadLink": "https://drive.google.com/file/d/1U_3wPYTSkM4uOscrwu7uwo90Lu_eMFL6/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1U_3wPYTSkM4uOscrwu7uwo90Lu_eMFL6/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/480961483_122118202766752079_8810796891292254904_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGPkqvBJS-MNf3avoSK_WNqq8IYTQQekLyrwhhNBB6QvHW6_779REqmWI306U84SfSa_fMhfaDexqXdyinJFbxf&_nc_ohc=fG6EKdQd0OEQ7kNvgHaBEJ9&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=VseoF2WgE6Vov1jewFEoGw&oh=00_AYEBJQfUN9m_Htvra2c1TvqrWJ30XjQYylg-Lvvt9-tszg&oe=67DF0FDC",
         "downloadLink": "https://drive.google.com/file/d/1a88LyDS6QxxPtSxxfMSftjTCs7ewY0d9/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1a88LyDS6QxxPtSxxfMSftjTCs7ewY0d9/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/484824978_122104569566800867_1578557526676602806_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=LrXWCpfa-5cQ7kNvgFI621C&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=yfGJ7d8fSGaJ49sI4q2a0g&oh=00_AYGVRYViZmBTx_kNCefmmI0PPiJe4L3olBYl2r8wbevS7w&oe=67DEF34D",
         "downloadLink": "https://drive.google.com/file/d/1fRVjvhKjCXWKMyvi-W2repFomGwSXdhL/view?usp=sharing",
         "embedLink": "https://drive.google.com/file/d/1fRVjvhKjCXWKMyvi-W2repFomGwSXdhL/preview",
-        "categories": ["English", "Education", "Teachers"]
+        "categories": ["English", "Education", "Teachers"],
+        "featured": true
     },
     {
         "id": 18,
@@ -159,7 +176,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/484926292_122104569272800867_6055578826842671218_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=zYqdWpcUfVAQ7kNvgEWrgG6&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=C9210P0TYYZSPeiaClsCkw&oh=00_AYHZYiwtMXhhZw9FANhlZ4LLNTDituWR-CMTtmGkUCj-lg&oe=67DEEE81",
         "downloadLink": "https://drive.google.com/file/d/1sRv_-MZAOdAN9Fkh6d-5OXYyQ1pPl2oy/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1sRv_-MZAOdAN9Fkh6d-5OXYyQ1pPl2oy/preview",
-        "categories": ["English", "Self Help"]
+        "categories": ["English", "Self Help"],
+        "featured": true
     },
     {
         "id": 19,
@@ -168,7 +186,8 @@
         "cover": "https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/484071126_122118202970752079_862214505991788611_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGgFvGO4oi0LaFSkLN_DBxQ_-juMgHdBcr_6O4yAd0FylAs8VaSoVI4PJbZBOWotpWoGX0TuJeD4nFsD7Qf6Fl4&_nc_ohc=R_XvxLbLiGwQ7kNvgEkdR2k&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=8Tqqw7Ek80eoIDn_Zs68Jw&oh=00_AYE7U6eUCvdrz-PxE1Hr0kguCr0NgntQR0N0NQv-uxAEAA&oe=67DF0195",
         "downloadLink": "https://drive.google.com/file/d/1szyBKrNaN1AgT-HmskKQx5sypx0R0s9k/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1szyBKrNaN1AgT-HmskKQx5sypx0R0s9k/preview",
-        "categories": ["German", "English", "Self Help"]
+        "categories": ["German", "English", "Self Help"],
+        "featured": true
     },
     {
         "id": 20,
@@ -177,7 +196,8 @@
         "cover": "https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/484033145_122118203348752079_74514631774353621_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGDDPvUeOMNHmcj9bLFS2RDaqSVgMwcWNJqpJWAzBxY0vmKvn-3Bd6-W-8OrCBN7wSGUOVstrKBk37TrKyXED_R&_nc_ohc=glY40VzRgdsQ7kNvgFeQJFN&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=2lC_KOKJZJM3Rl3jW1BysQ&oh=00_AYHAHVMto50fFOc-dwm6apTpJY65Zupe6Xq6C0E1dlc1_w&oe=67DF05BB",
         "downloadLink": "https://drive.google.com/file/d/1szyBKrNaN1AgT-HmskKQx5sypx0R0s9k/view?usp=drive_link",
         "embedLink": "https://drive.google.com/file/d/1szyBKrNaN1AgT-HmskKQx5sypx0R0s9k/preview",
-        "categories": ["English", "Education"]
+        "categories": ["English", "Education"],
+        "featured": true
     },
     {
         "id": 101,

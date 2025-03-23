@@ -53,7 +53,7 @@ nav {
     margin-right: 0.5rem;
 }
 
-.logo a{
+.logo a {
     text-decoration: none;
 }
 
@@ -176,7 +176,7 @@ nav {
     margin: 1rem 0;
     color: var(--primary);
     font-weight: 800;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 .section-title {
@@ -237,14 +237,18 @@ nav {
 /* Style for the buttons container */
 .book-info .button-container {
     display: flex;
-    gap: 0.5rem; /* Space between buttons */
-    margin-top: 0.5rem; /* Space above the buttons */
-    align-items: stretch; /* Ensure all buttons stretch to the same height */
+    gap: 0.5rem;
+    /* Space between buttons */
+    margin-top: 0.5rem;
+    /* Space above the buttons */
+    align-items: stretch;
+    /* Ensure all buttons stretch to the same height */
 }
 
 /* Common styles for all buttons */
 .book-info .button-container button {
-    padding: 0.75rem; /* Same padding for all buttons */
+    padding: 0.75rem;
+    /* Same padding for all buttons */
     border: none;
     border-radius: 8px;
     font-weight: 600;
@@ -253,14 +257,16 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Ensure buttons have the same height */
+    height: 100%;
+    /* Ensure buttons have the same height */
 }
 
 /* Specific styles for the Download button */
 .book-info .button-container .download-btn {
     background-color: var(--primary);
     color: white;
-    flex: 10; /* Larger flex value to make it bigger */
+    flex: 10;
+    /* Larger flex value to make it bigger */
 }
 
 .book-info .button-container .download-btn:hover {
@@ -270,14 +276,17 @@ nav {
 /* Container for all buttons */
 .button-container {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping for the "Read online" button */
-    gap: 0.5rem; /* Add spacing between buttons */
+    flex-wrap: wrap;
+    /* Allow wrapping for the "Read online" button */
+    gap: 0.5rem;
+    /* Add spacing between buttons */
 }
 
 /* Container for Download and Share buttons */
 .download-share-container {
     display: flex;
-    gap: 0.5rem; /* Add spacing between Download and Share buttons */
+    gap: 0.5rem;
+    /* Add spacing between Download and Share buttons */
 }
 
 /* Styles for the Download button */
@@ -317,13 +326,15 @@ nav {
     background-color: var(--primary);
     color: white;
     border: none;
-    width: 100%; /* Make the button full width */
+    width: 100%;
+    /* Make the button full width */
     padding: 0.75rem;
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.2s;
-    margin-top: 0.5rem; /* Add spacing above the Read online button */
+    margin-top: 0.5rem;
+    /* Add spacing above the Read online button */
 }
 
 .read-online-btn:hover {
@@ -357,11 +368,14 @@ nav {
     display: flex;
     gap: 1rem;
     padding-top: 10px;
-    animation: scrollCategories 20s linear infinite; /* Adjust the duration as needed */
+    animation: scrollCategories 20s linear infinite;
+    /* Adjust the duration as needed */
     flex-shrink: 0;
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap;
+    /* Prevent wrapping */
     position: relative;
-    z-index: 0; /* Lower z-index to stay under the "All Books" button */
+    z-index: 0;
+    /* Lower z-index to stay under the "All Books" button */
 }
 
 .category {
@@ -373,10 +387,12 @@ nav {
     white-space: nowrap;
     box-shadow: var(--shadow);
     transition: background-color 0.2s, color 0.2s;
-    flex-shrink: 0; /* Prevent categories from shrinking */
+    flex-shrink: 0;
+    /* Prevent categories from shrinking */
 }
 
-.category.active, .category:hover {
+.category.active,
+.category:hover {
     background-color: var(--primary);
     color: white;
 }
@@ -390,6 +406,7 @@ nav {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-100%);
     }
@@ -400,8 +417,10 @@ nav {
     0% {
         transform: translateX(0);
     }
+
     100% {
-        transform: translateX(-50%); /* Scroll only half the width of the duplicated content */
+        transform: translateX(-50%);
+        /* Scroll only half the width of the duplicated content */
     }
 }
 
@@ -412,9 +431,9 @@ nav {
 }
 
 .book-cover-image {
-    width: 100%; 
-    height: 100%; 
-    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -436,7 +455,8 @@ nav {
 }
 
 .download-cover-btn:hover {
-    background-color: var(--gray); /* Change to a lighter shade for hover */
+    background-color: var(--gray);
+    /* Change to a lighter shade for hover */
 }
 
 .download-cover-btn:hover::after {
@@ -444,8 +464,10 @@ nav {
     position: absolute;
     top: 35px;
     right: 0;
-    background-color: var(--gray); /* Tooltip background color */
-    color: rgb(46, 45, 45); /* Tooltip text color */
+    background-color: var(--gray);
+    /* Tooltip background color */
+    color: rgb(46, 45, 45);
+    /* Tooltip text color */
     padding: 0.5rem;
     border-radius: 4px;
     font-size: 0.875rem;
@@ -619,23 +641,23 @@ footer {
 @media (max-width: 768px) {
     .ad-container {
         margin: 1rem auto;
-}
+    }
 }
 
 @media (max-width: 768px) {
     .nav-links {
         display: none;
     }
-    
+
     .hero h1 {
         font-size: 2.25rem;
     }
-    
+
     .books-grid {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
         gap: 1.5rem;
     }
-    
+
     .book-cover {
         height: 300px;
         width: 100%;
@@ -652,7 +674,8 @@ footer {
 @media (max-width: 360px) {
     .book-cover {
         height: 400px;
-        width: 100%;;
+        width: 100%;
+        ;
     }
 }
 
@@ -675,7 +698,7 @@ footer {
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%; 
+    width: 100%;
 }
 
 .download-book .title {
@@ -683,7 +706,7 @@ footer {
     margin-bottom: 15px;
     color: #2c3e50;
     line-height: 1.3;
-    word-wrap: break-word; 
+    word-wrap: break-word;
 }
 
 .download-book .book-cover {
@@ -700,7 +723,7 @@ footer {
     color: #666;
     margin-bottom: 20px;
     line-height: 1.5;
-    word-wrap: break-word; 
+    word-wrap: break-word;
 }
 
 .buttons {
@@ -720,8 +743,8 @@ footer {
     cursor: pointer;
     font-size: 0.9rem;
     transition: background-color 0.3s ease;
-    width: 100%; 
-    white-space: nowrap; 
+    width: 100%;
+    white-space: nowrap;
 }
 
 .link-btn2 {
@@ -733,8 +756,8 @@ footer {
     cursor: pointer;
     font-size: 0.9rem;
     transition: background-color 0.3s ease;
-    width: 100%; 
-    white-space: nowrap; 
+    width: 100%;
+    white-space: nowrap;
 }
 
 .link-btn3 {
@@ -746,9 +769,10 @@ footer {
     cursor: pointer;
     font-size: 0.9rem;
     transition: background-color 0.3s ease;
-    width: 100%; 
-    white-space: nowrap; 
+    width: 100%;
+    white-space: nowrap;
 }
+
 .link-btn1:hover {
     background-color: #037f66;
 }
@@ -866,11 +890,11 @@ footer {
 
 @media (max-width: 480px) {
     .download-book {
-        padding: 20px 10px; 
+        padding: 20px 10px;
     }
 
     .download-book .title {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 
     .download-book .book-cover {
@@ -878,22 +902,22 @@ footer {
     }
 
     .download-book .quote {
-        font-size: 0.8rem; 
+        font-size: 0.8rem;
     }
 
     .buttons {
-        gap: 8px; 
+        gap: 8px;
     }
 
     .link-btn {
-        padding: 8px 15px; 
-        font-size: 0.75rem; 
+        padding: 8px 15px;
+        font-size: 0.75rem;
     }
 }
 
 @media (max-width: 360px) {
     .download-book .title {
-        font-size: 1.3rem; 
+        font-size: 1.3rem;
     }
 
     .download-book .book-cover {
@@ -901,12 +925,12 @@ footer {
     }
 
     .download-book .quote {
-        font-size: 0.75rem; 
+        font-size: 0.75rem;
     }
 
     .link-btn {
-        padding: 6px 12px; 
-        font-size: 0.7rem; 
+        padding: 6px 12px;
+        font-size: 0.7rem;
     }
 }
 
@@ -1056,157 +1080,198 @@ footer {
     background-color: var(--primary-light);
 }
 
-/* Dark Theme */
-body.dark-theme {
-    --primary: #e2bc40;
-    --primary-light: #9e8227;
-    --dark: white;
-    --light: #333232;
-    --gray: #efebd6;
-    --black: #000000;
-    --shadow: 0 4px 6px -1px rgba(247, 13, 13, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-    background-color: var(--light);
-    color: var(--dark);
+/*-------------------------------------------- Slider styling--------------------------------------- */
+
+.slider-container {
+    width: 99%;
+    overflow: hidden;
+    position: relative;
 }
 
-body.dark-theme header {
-    background-color: var(--black);
-}
-body.dark-theme footer,
-body.dark-theme .book-card,
-body.dark-theme .sidebar {
-    background-color: var(--black);
-    color: var(--dark);
+.slider {
+    margin: 10px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
-body.dark-theme .nav-links a,
-body.dark-theme .footer-links a {
-    color: var(--dark);
+.slide {
+    min-width: 200px;
+    /* Fixed width for each slide */
+    height: 300px;
+    /* Fixed height for each slide */
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    ;
 }
 
-body.dark-theme .nav-links a:hover,
-body.dark-theme .footer-links a:hover {
-    color: var(--primary-light);
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the container */
+    display: block;
 }
 
-body.dark-theme .search-bar input {
-    background-color: var(--black);
-    color: var(--dark);
-    border-color: var(--primary-light);
-}
 
-body.dark-theme .search-bar button {
-    background-color: var(--black);
-    color: var(--gray);
-}
+    /* Dark Theme */
+    body.dark-theme {
+        --primary: #e2bc40;
+        --primary-light: #9e8227;
+        --dark: white;
+        --light: #333232;
+        --gray: #efebd6;
+        --black: #000000;
+        --shadow: 0 4px 6px -1px rgba(247, 13, 13, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        background-color: var(--light);
+        color: var(--dark);
+    }
 
-body.dark-theme .search-bar button:hover {
-    background-color: grey;
-    color: var(--gray);
-}
+    body.dark-theme header {
+        background-color: var(--black);
+    }
 
-body.dark-theme .book-info .button-container .download-btn,
-body.dark-theme .share-btn {
-    background-color: var(--primary);
-    color: var(--black);
-}
+    body.dark-theme footer,
+    body.dark-theme .book-card,
+    body.dark-theme .sidebar {
+        background-color: var(--black);
+        color: var(--dark);
+    }
 
-body.dark-theme .download-btn:hover,
-body.dark-theme .share-btn:hover {
-    background-color: var(--primary-light);
-}
+    body.dark-theme .nav-links a,
+    body.dark-theme .footer-links a {
+        color: var(--dark);
+    }
 
-body.dark-theme .pagination button,
-body.dark-theme #page-numbers button{
-    color: var(--black);
-}
+    body.dark-theme .nav-links a:hover,
+    body.dark-theme .footer-links a:hover {
+        color: var(--primary-light);
+    }
 
-body.dark-theme .category.active, .category{
-    background-color: var(--black);
-    box-shadow: var(--shadow);
-    transition: background-color 0.2s, color 0.2s;
-}
+    body.dark-theme .search-bar input {
+        background-color: var(--black);
+        color: var(--dark);
+        border-color: var(--primary-light);
+    }
 
-body.dark-theme .category.active, .category:hover {
-    background-color: var(--primary);
-    color: var(--black);
-}
+    body.dark-theme .search-bar button {
+        background-color: var(--black);
+        color: var(--gray);
+    }
 
-body.dark-theme .download-book {
-    background-color: var(--light);
-    color: var(--dark);
-}
+    body.dark-theme .search-bar button:hover {
+        background-color: grey;
+        color: var(--gray);
+    }
 
-body.dark-theme .title {
-    color: var(--dark);
-}
+    body.dark-theme .book-info .button-container .download-btn,
+    body.dark-theme .share-btn {
+        background-color: var(--primary);
+        color: var(--black);
+    }
 
-body.dark-theme .quote {
-    color: var(--gray);
-}
+    body.dark-theme .download-btn:hover,
+    body.dark-theme .share-btn:hover {
+        background-color: var(--primary-light);
+    }
 
-body.dark-theme .ad-space {
-    background-color: var(--black);
-    color: var(--gray);
-    border-color: var(--primary);
-}
+    body.dark-theme .pagination button,
+    body.dark-theme #page-numbers button {
+        color: var(--black);
+    }
 
-body.dark-theme footer {
-    background-color: var(--black);
-    color: var(--gray);
-}
+    body.dark-theme .category.active,
+    .category {
+        background-color: var(--black);
+        box-shadow: var(--shadow);
+        transition: background-color 0.2s, color 0.2s;
+    }
 
-body.dark-theme .footer-title {
-    color: var(--primary);
-}
+    body.dark-theme .category.active,
+    .category:hover {
+        background-color: var(--primary);
+        color: var(--black);
+    }
 
-body.dark-theme .footer-links a {
-    color: var(--gray);
-}
+    body.dark-theme .download-book {
+        background-color: var(--light);
+        color: var(--dark);
+    }
 
-body.dark-theme .footer-links a:hover {
-    color: var(--primary);
-}
+    body.dark-theme .title {
+        color: var(--dark);
+    }
 
-body.dark-theme .contact-form input,
-body.dark-theme .contact-form textarea {
-    background-color: var(--light);
-    color: var(--dark);
-    border: 1px solid var(--primary);
-}
+    body.dark-theme .quote {
+        color: var(--gray);
+    }
 
-body.dark-theme .contact-form button {
-    background-color: var(--primary);
-    color: var(--black);
-}
+    body.dark-theme .ad-space {
+        background-color: var(--black);
+        color: var(--gray);
+        border-color: var(--primary);
+    }
 
-body.dark-theme .contact-form button:hover {
-    background-color: var(--primary-light);
-}
+    body.dark-theme footer {
+        background-color: var(--black);
+        color: var(--gray);
+    }
 
-body.dark-theme .newsletter input {
-    background-color: var(--light);
-    color: var(--dark);
-    border: 1px solid var(--primary);
-}
+    body.dark-theme .footer-title {
+        color: var(--primary);
+    }
 
-body.dark-theme .newsletter button {
-    background-color: var(--primary);
-    color: var(--black);
-}
+    body.dark-theme .footer-links a {
+        color: var(--gray);
+    }
 
-body.dark-theme .newsletter button:hover {
-    background-color: var(--primary-light);
-}
+    body.dark-theme .footer-links a:hover {
+        color: var(--primary);
+    }
 
-body.dark-theme .note {
-    color: var(--dark);
-}
+    body.dark-theme .contact-form input,
+    body.dark-theme .contact-form textarea {
+        background-color: var(--light);
+        color: var(--dark);
+        border: 1px solid var(--primary);
+    }
 
-body.dark-theme .book-info .button-container .share-btn {
-    color: var(--black);
-}
+    body.dark-theme .contact-form button {
+        background-color: var(--primary);
+        color: var(--black);
+    }
 
-body.dark-theme .book-info .button-container .read-online-btn {
-    color: var(--black);
-}
+    body.dark-theme .contact-form button:hover {
+        background-color: var(--primary-light);
+    }
+
+    body.dark-theme .newsletter input {
+        background-color: var(--light);
+        color: var(--dark);
+        border: 1px solid var(--primary);
+    }
+
+    body.dark-theme .newsletter button {
+        background-color: var(--primary);
+        color: var(--black);
+    }
+
+    body.dark-theme .newsletter button:hover {
+        background-color: var(--primary-light);
+    }
+
+    body.dark-theme .note {
+        color: var(--dark);
+    }
+
+    body.dark-theme .book-info .button-container .share-btn {
+        color: var(--black);
+    }
+
+    body.dark-theme .book-info .button-container .read-online-btn {
+        color: var(--black);
+    }
