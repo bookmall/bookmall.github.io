@@ -394,7 +394,7 @@ async function displayFeaturedBooksInSlider() {
         slide.className = 'slide';
         slide.innerHTML = `
         <img src="${book.cover}" alt="${book.title}" data-book-id="${book.id}">
-      `;
+    `;
         slider.appendChild(slide);
     });
 
